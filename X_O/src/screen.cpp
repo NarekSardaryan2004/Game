@@ -63,7 +63,7 @@ void Screen::difficultyButton() {
                     select = (select == 0) ? difficultyOptions.size() - 1 : select - 1;
                     break;
                 case KEY_DOWN:
-                    select = (select == difficultyOptions.size()) - 1 ? 0 : select + 1;
+                    select = (select == difficultyOptions.size() - 1) ? 0 : select + 1;
                     break;
                 case '\n':
                     switch (select) {
